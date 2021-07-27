@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+.body {
+    min-height: 100% !important;
+    overflow-x: hidden;
+    background-color: #004643 !important;
+}
+
+.headline {
+    color: #e16162;
+}
+
+.ownnav {
+    text-decoration: none;
+    font-size: 30px;
+    color: #e16162;
+}
+a {
+    text-decoration: none;
+    color: #fffffe
+}
+a:hover {
+    color: #abd1c6;
+}
+
+.mycard h1 {
+    color: #fff;
+}
+.mycard p {
+    color: #abd1c6;
+    font-size: 28px;
+}
+
+.card-body {
+    background-color: #e8e4e6 !important;
+    border-radius: 4px;
+    color: #001E1D !important;
+    font-size: 20px;
+}
+
+.card-body h1 {
+    background-color: transparent !important;
+}
+
+.card-title, .card-text {
+    background-color: transparent !important;
+}
+
+.card-title {
+    font-weight:bold;
+}
+
+.card-text { 
+    font-style: oblique;
+}
+
+button {
+    background-color: #f9bc60 !important;
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s;
+}
+button:active {
+    outline: 2px solid #faaa33 !important;
+}
+button:hover {
+    background-color: #faaa33 !important;
+}
+
+i {
+    font-size: 30px;
+    color: #f9bc60;
+}
+
+.page-footer {
+    position: relative;
+    top: 250px;
+}
+
+.card-link-hover {
+    background-color: #e8e4e6;
+    border-radius: 4px;
+    color: #001E1D;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.card-link-hover:hover {
+    /* opacity: 0.9; */
+    background-color: #004643;
+    outline: 1px solid #fffffe;
+    color: #fffffe;
+}
+
+.add-button {
+    position: fixed;
+    right: 15%;
+    bottom: 10vh;
+    border: 5px solid #faaa33;
+    padding: 5px;
+    background-color:#fffffe;
+    transition: 0.3s;
+}
+.add-button:hover {
+    opacity: 0.9;
+}
