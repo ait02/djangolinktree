@@ -9,4 +9,4 @@ class Link(models.Model):
     url = models.URLField()
 
     def __str__(self):
-        return self.title + ' | ' + self.owner.username.upper()
+        return self.title

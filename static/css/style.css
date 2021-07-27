@@ -96,10 +96,10 @@ i {
 }
 
 .card-link-hover:hover {
-    /* opacity: 0.9; */
-    background-color: #004643;
-    outline: 1px solid #fffffe;
-    color: #fffffe;
+    opacity: 0.8;
+    /* background-color: #004643; */
+    /* outline: 1px solid #fffffe; */
+    /* color: #fffffe; */
 }
 
 .add-button {
@@ -113,4 +113,12 @@ i {
 }
 .add-button:hover {
     opacity: 0.9;
+}
+
+.elonimg {
+    background-image: url('/static/images/elonmusk.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
